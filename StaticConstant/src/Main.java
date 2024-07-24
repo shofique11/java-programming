@@ -10,7 +10,8 @@ public class Main {
             System.out.println("Circle3 area is: "+ circle3.getArea());
             System.out.println("Number of object: "+ circle3.getNumberOfObjectCreated());
             Circle result = new Circle(15,12);
-           // Circle result2 = new Circle(20,18);
+           //
+            // Circle result2 = new Circle(20,18);
             System.out.println("My number calculation result: " + result.getResult());
             //System.out.println("My number calculation result: " + result.getResult2());
     }
