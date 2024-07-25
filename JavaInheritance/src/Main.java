@@ -20,5 +20,11 @@ public class Main {
         System.out.println("speed: "+ mountainBike.speed);
         mountainBike.applyBreak(5);
         System.out.println("speed: "+ mountainBike.speed);
+
+        SavingAccount savingAccount = new SavingAccount(10.5,"682738",5000);
+        savingAccount.deposit(200);
+        System.out.println("Balance : "+ savingAccount.getBalance());
+        savingAccount.withdraw(3000);
+        System.out.println("Balance : "+ savingAccount.getBalance());
     }
 }
