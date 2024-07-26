@@ -24,7 +24,17 @@ public class Main {
         SavingAccount savingAccount = new SavingAccount(10.5,"682738",5000);
         savingAccount.deposit(200);
         System.out.println("Balance : "+ savingAccount.getBalance());
-        savingAccount.withdraw(3000);
+        savingAccount.withdraw(1500);
+        System.out.println("Balance : "+ savingAccount.getBalance());
+        savingAccount.withdraw(1000);
+        System.out.println("Balance : "+ savingAccount.getBalance());
+        savingAccount.withdraw(500);
+        System.out.println("Balance : "+ savingAccount.getBalance());
+        savingAccount.withdraw(500);
+        System.out.println("Balance : "+ savingAccount.getBalance());
+        savingAccount.withdraw(500);
+        System.out.println("Balance : "+ savingAccount.getBalance());
+        savingAccount.withdraw(500);
         System.out.println("Balance : "+ savingAccount.getBalance());
     }
 }
